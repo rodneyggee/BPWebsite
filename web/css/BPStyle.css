@@ -1,0 +1,588 @@
+/* --------------------------------------------------------
+Style Sheet for Website
+
+version: 0.1
+date: Put Date here
+author: Randall Nicholls	
+email: randallnicholls@gmail.com
+----------------------------------------------------------*/
+body {
+	font-family: 'FFDINWeb';
+	font-size: 1.2rem;
+	line-height: 1.38;
+	color: #606060;
+	background-color: #f7f7f7;
+}
+a:hover, a:focus {
+	color: #83c6fe;
+}
+strong {
+	font-family: 'FFDINWebProMedium';
+}
+h4{
+	color:#0e5fa4;
+	    font-size: 2.4rem;
+}
+/* #Links */
+a, a:visited {
+	color: #83c6fe;
+	text-decoration: none;
+	outline: 0;
+	font-family: 'FFDINWebProMedium';
+}
+.brand-logo a {
+	background-image: url(../images/bp/Logo.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-size: contain;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	-webkit-transition: all 2s; /* Chrome*/
+	-moz-transition: all 2s; /* Mozilla */
+	-o-transition: all 2s; /* Opera */
+	transition: all 2s;
+	height: 81px;
+	margin-top: 10px;
+}
+.brand-logo {
+	margin-bottom: 10px;
+}
+/* Colours */
+
+.hamburgercolor {
+	background-color: #ebd713;
+}
+.SchemeColor1 {
+	background-color: #0e5fa4;
+}
+.SchemeColor5 {
+	background-color: #83c6fe;
+}
+.SchemeColor2 {
+	background-color: #049748;
+}
+.SchemeColor3 {
+	background-color: #80c342;
+}
+.SchemeColor4 {
+	background-color: #ebd713;
+}
+.SchemeColor1Text, .SchemeColor1Text a {
+	color: #0e5fa4;
+}
+.SchemeColor5Text {
+	color: #83c6fe;
+}
+.SchemeColor2text {
+	color: #00a651;
+}
+.SchemeColor3text {
+	color: #80c342;
+}
+.SchemeColor4Text {
+	color: #ebd713;
+}
+.multiplyred {
+	background-color: #d71920;
+}
+.blocklink h4 {
+	color: #FFF;
+	font-family: 'FFDINWeb';
+	font-size: 1.5rem;
+}
+
+/* --------------------------------------------------------
+Navigation
+----------------------------------------------------------*/
+nav.primary ul {
+	font-family: 'FFDINWebProLight';
+}
+nav.primary ul#nav ul li a {
+	color: #333333;
+	background-image: url(../images/bp/transparentback.png);
+	font-family: 'FFDINWebProLight';
+}
+nav.primary ul#nav ul ul li a:hover {
+	border-bottom: none;
+	background-color: #80c342;
+	color: #FFF;
+	border-radius: 5px;
+	margin: 0px;
+}
+nav.primary ul#nav ul li:hover > a {
+	background-color: #00a651;
+}
+.navigation .home {
+	background-color: #FFF;
+}
+nav.primary ul#nav ul li #demo01 {
+	background-image: url(../images/bp/sign-in-white.svg);
+	background-color: #00a651;
+}
+nav.primary ul li #demo01:hover {
+	background-image: url(../images/bp/sign-in-white.svg);
+}
+.homeimage {
+	background-image: url(../images/bp/FamilyHands.jpg);
+}
+.marketblurb h2 {
+	font-size: 2.5rem;
+	color: #0e5fa4;
+	text-align: center;
+	width: 100%;
+}
+.marketblurb ul {
+	font-size: 1.5rem;
+}
+.marketblurb h3 {
+	font-size: 1.3rem;
+	color: #0e5fa4;
+	text-align: center;
+	width: 100%;
+}
+.familybackimg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+.publications {
+	color: #FFF;
+	font-size: 1.1rem;
+}
+.publications h2 {
+	font-size: 2.4rem;
+}
+.pubbutn .btn-large{
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+}
+.pubbutn .btn-large:hover {
+	box-shadow: none;
+}
+.publications h3 {
+	font-size: 2rem;
+}
+.publications h4 {
+	font-size: 1.6rem;
+	margin-bottom: 5px;
+}
+.date {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	overflow: visible;
+	margin: 0;
+	font-size: 0.8rem;
+	margin-bottom: 8px;
+}
+.date i {
+	font-size: 0.9rem;
+	margin-right: 5px;
+}
+.bottomcontact {
+	color: #FFF;
+	font-size: 1.1rem;
+}
+.bottomcontact h3 {
+	font-size: 2rem;
+}
+.bottomcontact h4 {
+	font-size: 1.7rem;
+	color:#FFF;
+}
+.bottomcontact h5 {
+	font-size: 1.4rem;
+}
+.bottomcontact h6 a {
+	font-size: 1.2rem;
+	font-family: 'FFDINWeb';
+	color: #88e8b4;
+}
+.bottomdisclaimer a, .bottomdisclaimer {
+	color: #FFF;
+}
+DIV.bottomcontact .input-field input[type=text] {
+	border-bottom: 1px solid #FFF;
+}
+DIV.bottomcontact .input-field label.active, DIV.bottomcontact .input-field label {
+	color: #fff;
+}
+DIV.bottomcontact .input-field .active {
+	color: #fff;
+}
+.content {
+	background-image: none;
+}
+.content .options {
+	display: none;
+}
+.pagetitile {
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: contain;
+	font-family: FFDINWebProLight;
+	color: #FFF;
+	padding: 20px;
+}
+.pagetitile h4 {
+	margin-bottom: 0;
+	font-family: 'FFDINWeb';
+	font-size: 2.2rem;
+	color:#FFF;
+}
+.searchbenefits {
+	background-color: #FFF;
+}
+.search input[type=text] {
+	font-size: 1.5rem;
+	margin: 10px;
+	border: none;
+	width: 80%;
+	font-family: 'FFDINWeb';
+	color: #00a651;
+}
+.benefitsdrop {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.benefitsdrop a {
+	color: #0e5fa4;
+	text-align: left;
+	font-size: 2rem;
+	font-family: 'FFDINWeb';
+}
+.benefitsdrop .btn, .benefitsdrop .btn ul {
+	text-align: left;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0px;
+}
+DIV.benefitsdrop ul {
+	width: 350px;
+}
+.benefitscol .collapsible {
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}
+.benefitscol .collapsible .card-panel {
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+}
+.benefitscol blockquote, .programmesteps blockquote {
+	text-emphasis: accent;
+	border-color:transparent;
+	padding-left:0px;
+}
+.benefitscol .collapsible-header {
+	text-align: left;
+	font-size: 1.8rem;
+	background-color: transparent;
+	color: #0e5fa4;
+	font-family: 'FFDINWeb';
+	line-height: 2rem;
+	padding-bottom: 10px;
+}
+.borderbottom {
+	border-bottom: 1px solid #ddd;
+}
+.benefitscol .collapsible-header h6 i, .benefitscol .collapsible-header h6 {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	color: #999;
+}
+.benefitscol .collapsible-header h6 {
+	line-height: 1.5;
+}
+.benefitscol .collapsible-header h6 i {
+	width: auto;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+.benefitscol h5 {
+	padding-top: 15px;
+	font-size: 1.5rem;
+	line-height: 110%;
+}
+.benefitscol .collapsible-body {
+	border-bottom: none;
+	background-color: #FFF;
+	padding-top: 0;
+}
+.benefitscol .collapsible-body h6 {
+	font-size: 1rem;
+	font-family: 'FFDINWeb';
+	text-align: center;
+	line-height: 1.5rem;
+}
+.benefitscol .collapsible-body h6 strong {
+	font-size: 2.5rem;
+	display: block;
+	padding-bottom: 5px;
+	font-family: 'FFDINWeb';
+}
+.benefitscol .collection.with-header .collection-header {
+	background-color: transparent;
+	font-family: 'FFDINWeb';
+	border: none;
+	padding: 2px 20px;
+}
+.benefitscol .collection.collection.with-header .collection-item {
+	background-color: transparent;
+	border: none;
+	padding: 2px 20px;
+}
+.benefitscol .collection {
+	padding-bottom: 20px;
+}
+.SchemeRate{
+	color:#FFF;
+	background-color:#80c342;
+}
+.backimage{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+.maternityimg {
+	background-image: url(../images/bp/maternity.jpg);
+}
+.oncologyimage {
+	background-image:url(../images/bp/oncology.gif);
+}
+.aboutusimage {
+	background-image:url(../images/bp/app_bp_building_big.jpg);
+}
+.placeholderimage {
+	background-image:url(../images/bp/image_placeholder.png);
+}
+.programme img{
+	width:60%;
+	    padding-bottom: 20px;
+
+}
+.programmeinfo img {
+	width: 100px;
+	margin: 0 auto;
+}
+.programmeinfo .provider img {
+	width: 50%;
+}
+.programmeinfo .card {
+	background-color: transparent;
+	box-shadow: none;
+}
+.programmeinfo .SchemeColor1 .card .card-reveal {
+	background-color: #0e5fa4;
+	box-shadow: none;
+}
+.programmeinfo .SchemeColor2 .card .card-reveal {
+	background-color: #049748;
+	box-shadow: none;
+}
+.programmeinfo .card .card-content p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.programmeinfo {
+	color: #FFF;
+}
+.programmeinfo .provider {
+	color: #606060;
+}
+.programmeinfo h5 {
+	text-align: center;
+	font-size: 2rem;
+	padding-top:15px;
+}
+.programmeinfo .provider h5 {
+	color:#0e5fa4;
+}
+.programmeinfo .column-block{
+	margin-bottom:0px;
+}
+.programmesteps .collection, .programmesteps .collection .collection-item {
+	border: none;
+}
+.programmesteps .collection .collection-item {
+	background-color: transparent;
+}
+.programmesteps .collection .collection-item.avatar {
+	min-height: 55px;
+}
+.programmesteps .collection .collection-item.avatar .circle {
+	font-size: 1.3rem;
+	line-height: 37px;
+	color: #fff;
+	background-color: #80c342;
+	text-align: center;
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.programmesteps .collection {
+	background-image: url(../images/bp/divider.gif);
+	background-repeat: repeat-y;
+}
+.or {
+	font-size: 1.3rem;
+	line-height: 45px;
+	color: #fff;
+	background-color: #80c342;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	margin: 0 auto;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.line{
+	background-image:url(../images/bp/divider_or.gif);
+	background-repeat:repeat-y;
+	background-position:center;
+}
+.programmesteps .collection .collection-item.avatar .title {
+	font-size: 1.4rem;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	display: block;
+}
+.downloadholder {
+	display: block;
+	margin: 10px;
+}
+.downloadholder h4{
+	font-size:1.5rem;
+	border-bottom:1px solid #606060;
+	color:#606060;
+}
+.downloadholder span{
+	display:block;
+	padding:5px;
+	margin-left:25px;
+}
+.downloadtitle {
+	background-color:#FFF;
+}
+.publications h4{
+	color:#FFF;
+}
+
+.comparition h4 em{
+	color:#606060;
+	font-size:1.7rem;
+}
+.comparition h3{
+	font-size:2.2rem;
+	font-family: 'FFDINWeb';
+	
+}
+.comparition h4{
+	font-size:2.5rem;
+	font-family: 'FFDINWeb';
+	color:#d71921;
+}
+.comparition h4 span{
+	display:block;
+	font-size:1.1rem;
+	font-family: 'FFDINWebProLight';
+}
+.comparition img{
+	width:60%;
+	margin:0 auto;
+	padding-bottom:15px;
+}
+.comparition  i{
+	font-size:1.1rem;
+}
+
+/* --------------------------------------------------------
+Media Queries
+----------------------------------------------------------*/
+/* Small only */
+@media screen and (min-width: 10em) {
+.brand-logo {
+	padding-left: 60px;
+}
+.brand-logo.smalllogo {
+	padding-left: 30px;
+}
+.brand-logo.smalllogo a {
+	width: 155px;
+}
+.brand-logo a {
+	width: 147px;
+}
+.familybackimg {
+	background-image: none;
+}
+.newsletters .btn-large, .bottomcontact .btn-large, .publist .btn {
+	width: 100%;
+	background-color: #80c342;
+}
+.newsletters img {
+	display: none;
+}
+.pagetitile p {
+	display: none;
+}
+.pagetitile {
+	text-align: left;
+	background-image: none;
+}
+.search input[type=text] {
+	width: 80%;
+}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+nav.primary ul#nav ul li a {
+	font-size: 1.4rem;
+}
+.brand-logo {
+	padding-left: 0px;
+}
+.brand-logo a {
+	width: 167px;
+}
+.familybackimg {
+	background-image: url(../images/bp/img2.jpg);
+}
+.newsletters .btn-large, .bottomcontact .btn-large, .publist .btn {
+	width: auto;
+}
+.newsletters img {
+	display: block;
+}
+.pagetitile p {
+	display: block;
+}
+.pagetitile {
+	text-align: center;
+	background-image: url(../images/bp/flower.png);
+}
+.search input[type=text] {
+	width: 90%;
+}
+}
+
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+}
