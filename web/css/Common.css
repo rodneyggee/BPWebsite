@@ -296,17 +296,17 @@ br, p {
 	margin: 0 auto;
 	padding-bottom: 15px;
 }
-.AGMdetails {
+.AGMdetails, .listitemwithicon {
 	padding: 10px;
 }
-.AGMdetails ul li {
+.AGMdetails ul li, .listitemwithicon ul li {
 	padding-bottom: 10px;
 }
-.AGMdetails ul li:last-child {
+.AGMdetails ul li:last-child, .listitemwithicon ul li:last-child {
 	padding-bottom: 0px;
 }
-.AGMdetails {
-	border-left: 5px solid #FFF;
+.AGMdetails, .listitemwithicon {
+	border-left:none;
 }
 
 
