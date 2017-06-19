@@ -54,6 +54,12 @@ h6 {
 	letter-spacing: 0;
 }
 /* #Links */
+a{
+overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 a, a:visited {
 	text-decoration: none;
 	outline: 0;
@@ -308,7 +314,10 @@ br, p {
 .AGMdetails, .listitemwithicon {
 	border-left:none;
 }
+.collapsible-header i{
+	line-height:inherit;
 
+}
 
 
 /* --------------------------------------------------------
