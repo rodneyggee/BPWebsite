@@ -304,9 +304,9 @@ DIV.benefitsdrop ul {
 	line-height: 110%;
 }
 .benefitscol .collapsible-body {
-	border-bottom: none;
+	
 	background-color: #FFF;
-	padding-top: 0;
+	/*padding-top: 0;*/
 }
 .benefitscol .collapsible-body h6 {
 	font-size: 1rem;
@@ -320,16 +320,16 @@ DIV.benefitsdrop ul {
 	padding-bottom: 5px;
 	font-family: 'FFDINWeb';
 }
-.benefitscol .collection.with-header .collection-header {
+/*.benefitscol .collection.with-header .collection-header {
 	background-color: transparent;
 	font-family: 'FFDINWeb';
 	border: none;
 	padding: 2px 20px;
-}
+}*/
 .benefitscol .collection.collection.with-header .collection-item {
 	background-color: transparent;
 	border: none;
-	padding: 2px 20px;
+	
 }
 .benefitscol .collection {
 	padding-bottom: 20px;
@@ -363,6 +363,9 @@ DIV.benefitsdrop ul {
 }
 .chronicmedsimage{
 	background-image:url(../images/bp/chronicmeds.jpg);
+}
+.pmbimage{
+	background-image:url(../images/bp/pmb.jpg);
 }
 .programmeinfo .collection .collection-item, .programmeinfo .collection .collection-header{
 	background-color:transparent;

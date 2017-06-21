@@ -328,7 +328,9 @@ br, p {
 .programme .smallerimage{
 	width:30%;
 }
-
+DIV.collapsible-body .downloadholder .columns{
+	height: 54px;
+}
 
 /* --------------------------------------------------------
 Media Queries
