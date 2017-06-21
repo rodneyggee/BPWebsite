@@ -358,6 +358,9 @@ DIV.benefitsdrop ul {
 .aboutusimage {
 	background-image:url(../images/bp/app_bp_building_big.jpg);
 }
+.multiplyimage{
+	background-image:url(../images/bp/multiplyimage.jpg);
+}
 .placeholderimage {
 	background-image:url(../images/bp/image_placeholder.png);
 }
