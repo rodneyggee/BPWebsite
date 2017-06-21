@@ -58,10 +58,10 @@ a, a:visited {
 	text-decoration: none;
 	outline: 0;
 }
-a[href^="mailto:"]{
-overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+a[href^="mailto:"] {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 a:hover, a:focus {
 	text-decoration: underline;
@@ -276,19 +276,19 @@ br, p {
 	margin-left: 10px;
 	vertical-align: middle;
 }
-.forms .btn-large, .downloadlink .btn-large{
+.forms .btn-large, .downloadlink .btn-large {
 	width: 100%;
 }
 .forms a, .downloadlink a {
 	padding: 10px;
 }
-.forms i, .downloadlink  i {
+.forms i, .downloadlink i {
 	padding-left: 10px;
 }
 .downloadlink {
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
-.forms .column, .downloadlink .column{
+.forms .column, .downloadlink .column {
 	padding-right: 0px;
 }
 .forms strong {
@@ -314,12 +314,15 @@ br, p {
 	padding-bottom: 0px;
 }
 .AGMdetails, .listitemwithicon {
-	border-left:none;
+	border-left: none;
 }
-.collapsible-header i{
-	line-height:inherit;
+.collapsible-header i {
+	line-height: inherit;
+}
+.valignwidthfix {
+	width: 100%;
+}
 
-}
 
 
 /* --------------------------------------------------------
@@ -342,7 +345,7 @@ Media Queries
 .padding {
 	padding: 20px;
 }
-.publications img {
+.publications img, .programmeinfo .publications img {
 	float: left;
 	width: 80px;
 	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.3);
@@ -394,7 +397,7 @@ Media Queries
 .padding {
 	padding: 40px;
 }
-.publications img {
+.publications img, .programmeinfo .publications img {
 	width: 120px;
 	margin-right: 15px;
 }
@@ -424,10 +427,15 @@ Media Queries
  padding-right: .9375rem;
  padding-left: .9375rem;
 }
-.publist ul li{
-	width:50%;
-	display:inline-block;
-	float:left;
+.publist ul li {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.fullli ul li {
+	width: inherit;
+	float: inherit;
+	display: block;
 }
 }
 
