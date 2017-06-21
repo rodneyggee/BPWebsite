@@ -19,9 +19,9 @@ a:hover, a:focus {
 strong {
 	font-family: 'FFDINWebProMedium';
 }
-h4{
-	color:#0e5fa4;
-	    font-size: 2.4rem;
+h4 {
+	color: #0e5fa4;
+	font-size: 2.4rem;
 }
 /* #Links */
 a, a:visited {
@@ -91,7 +91,6 @@ a, a:visited {
 	font-family: 'FFDINWeb';
 	font-size: 1.5rem;
 }
-
 /* --------------------------------------------------------
 Navigation
 ----------------------------------------------------------*/
@@ -153,7 +152,7 @@ nav.primary ul li #demo01:hover {
 .publications h2 {
 	font-size: 2.4rem;
 }
-.pubbutn .btn-large{
+.pubbutn .btn-large {
 	margin: 0px;
 	padding: 0px;
 	background-color: transparent;
@@ -189,7 +188,7 @@ nav.primary ul li #demo01:hover {
 }
 .bottomcontact h4 {
 	font-size: 1.7rem;
-	color:#FFF;
+	color: #FFF;
 }
 .bottomcontact h5 {
 	font-size: 1.4rem;
@@ -229,7 +228,7 @@ DIV.bottomcontact .input-field .active {
 	margin-bottom: 0;
 	font-family: 'FFDINWeb';
 	font-size: 2.2rem;
-	color:#FFF;
+	color: #FFF;
 }
 .searchbenefits {
 	background-color: #FFF;
@@ -243,7 +242,6 @@ DIV.bottomcontact .input-field .active {
 	color: #00a651;
 }
 .benefitsdrop {
-	
 	padding-bottom: 15px;
 }
 .benefitsdrop a {
@@ -273,14 +271,13 @@ DIV.benefitsdrop ul {
 }
 .benefitscol blockquote, .programmesteps blockquote {
 	text-emphasis: accent;
-	border-color:transparent;
-	padding-left:0px;
+	border-color: transparent;
+	padding-left: 0px;
 }
 .benefitscol .collapsible-header {
 	text-align: left;
 	font-size: 1.8rem;
 	background-color: transparent;
-	
 	font-family: 'FFDINWeb';
 	line-height: 2rem;
 	padding-bottom: 10px;
@@ -337,11 +334,11 @@ DIV.benefitsdrop ul {
 .benefitscol .collection {
 	padding-bottom: 20px;
 }
-.SchemeRate{
-	color:#FFF;
-	background-color:#80c342;
+.SchemeRate {
+	color: #FFF;
+	background-color: #80c342;
 }
-.backimage{
+.backimage {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top left;
@@ -350,24 +347,26 @@ DIV.benefitsdrop ul {
 	background-image: url(../images/bp/maternity.jpg);
 }
 .oncologyimage {
-	background-image:url(../images/bp/oncology.gif);
+	background-image: url(../images/bp/oncology.gif);
 }
-.netcareimage{
-	background-image:url(../images/bp/netcareimage.jpg);
+.netcareimage {
+	background-image: url(../images/bp/netcareimage.jpg);
 }
 .aboutusimage {
-	background-image:url(../images/bp/app_bp_building_big.jpg);
+	background-image: url(../images/bp/app_bp_building_big.jpg);
 }
-.multiplyimage{
-	background-image:url(../images/bp/multiplyimage.jpg);
+.multiplyimage {
+	background-image: url(../images/bp/multiplyimage.jpg);
 }
 .placeholderimage {
-	background-image:url(../images/bp/image_placeholder.png);
+	background-image: url(../images/bp/image_placeholder.png);
 }
-.programme img{
-	width:60%;
-	    padding-bottom: 20px;
-
+.chronicmedsimage{
+	background-image:url(../images/bp/chronicmeds.jpg);
+}
+.programme img {
+	width: 60%;
+	padding-bottom: 20px;
 }
 .programmeinfo img {
 	width: 100px;
@@ -401,13 +400,13 @@ DIV.benefitsdrop ul {
 .programmeinfo h5 {
 	text-align: center;
 	font-size: 2rem;
-	padding-top:15px;
+	padding-top: 15px;
 }
 .programmeinfo .provider h5 {
-	color:#0e5fa4;
+	color: #0e5fa4;
 }
-.programmeinfo .column-block{
-	margin-bottom:0px;
+.programmeinfo .column-block {
+	margin-bottom: 0px;
 }
 .programmesteps .collection, .programmesteps .collection .collection-item {
 	border: none;
@@ -449,10 +448,10 @@ DIV.benefitsdrop ul {
 	vertical-align: middle;
 	border-radius: 50%;
 }
-.line{
-	background-image:url(../images/bp/divider_or.gif);
-	background-repeat:repeat-y;
-	background-position:center;
+.line {
+	background-image: url(../images/bp/divider_or.gif);
+	background-repeat: repeat-y;
+	background-position: center;
 }
 .programmesteps .collection .collection-item.avatar .title {
 	font-size: 1.4rem;
@@ -464,49 +463,47 @@ DIV.benefitsdrop ul {
 	display: block;
 	margin: 10px;
 }
-.downloadholder h4{
-	font-size:1.5rem;
-	border-bottom:1px solid #606060;
-	color:#606060;
+.downloadholder h4 {
+	font-size: 1.5rem;
+	border-bottom: 1px solid #606060;
+	color: #606060;
 }
-.downloadholder span{
-	display:block;
-	padding:5px;
-	margin-left:25px;
+.downloadholder span {
+	display: block;
+	padding: 5px;
+	margin-left: 25px;
 }
 .downloadtitle {
-	background-color:#FFF;
+	background-color: #FFF;
 }
-.publications h4{
-	color:#FFF;
+.publications h4 {
+	color: #FFF;
 }
-
-.comparition h4 em{
-	color:#606060;
-	font-size:1.7rem;
+.comparition h4 em {
+	color: #606060;
+	font-size: 1.7rem;
 }
-.comparition h3{
-	font-size:2.2rem;
+.comparition h3 {
+	font-size: 2.2rem;
 	font-family: 'FFDINWeb';
-	
 }
-.comparition h4{
-	font-size:2.5rem;
+.comparition h4 {
+	font-size: 2.5rem;
 	font-family: 'FFDINWeb';
-	color:#d71921;
+	color: #d71921;
 }
-.comparition h4 span{
-	display:block;
-	font-size:1.1rem;
+.comparition h4 span {
+	display: block;
+	font-size: 1.1rem;
 	font-family: 'FFDINWebProLight';
 }
-.comparition img{
-	width:60%;
-	margin:0 auto;
-	padding-bottom:15px;
+.comparition img {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 15px;
 }
-.comparition  i{
-	font-size:1.1rem;
+.comparition i {
+	font-size: 1.1rem;
 }
 
 /* --------------------------------------------------------
