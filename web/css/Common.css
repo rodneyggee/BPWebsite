@@ -276,22 +276,25 @@ br, p {
 	margin-left: 10px;
 	vertical-align: middle;
 }
-.forms .btn-large {
+.forms .btn-large, .downloadlink .btn-large{
 	width: 100%;
 }
-.forms a {
+.forms a, .downloadlink a {
 	padding: 10px;
 }
-.forms i {
+.forms i, .downloadlink  i {
 	padding-left: 10px;
 }
-.forms .column {
+.downloadlink {
+	margin-bottom:15px;
+}
+.forms .column, .downloadlink .column{
 	padding-right: 0px;
 }
 .forms strong {
 	padding-right: 10px;
 }
-.forms .row {
+.forms .row, .downloadlink row {
 	margin-top: 5px;
 }
 .profile {
