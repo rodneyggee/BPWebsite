@@ -322,7 +322,9 @@ br, p {
 .valignwidthfix {
 	width: 100%;
 }
-
+.programmeinfo .publications h5{
+	text-align:left;
+}
 
 
 /* --------------------------------------------------------
