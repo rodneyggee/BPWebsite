@@ -325,6 +325,9 @@ br, p {
 .programmeinfo .publications h5{
 	text-align:left;
 }
+.programme .smallerimage{
+	width:30%;
+}
 
 
 /* --------------------------------------------------------
