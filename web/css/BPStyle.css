@@ -364,6 +364,9 @@ DIV.benefitsdrop ul {
 .chronicmedsimage{
 	background-image:url(../images/bp/chronicmeds.jpg);
 }
+.programmeinfo .collection .collection-item, .programmeinfo .collection .collection-header{
+	background-color:transparent;
+}
 .HIVimage{
 	background-image:url(../images/bp/hivimage.jpg);
 }
