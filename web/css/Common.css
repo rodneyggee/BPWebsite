@@ -322,14 +322,20 @@ br, p {
 .valignwidthfix {
 	width: 100%;
 }
-.programmeinfo .publications h5{
-	text-align:left;
+.programmeinfo .publications h5 {
+	text-align: left;
 }
-.programme .smallerimage{
-	width:30%;
+.programme .smallerimage {
+	width: 30%;
 }
-DIV.collapsible-body .downloadholder .columns{
+DIV.collapsible-body .downloadholder .columns {
 	height: 54px;
+}
+.programmesteps .collection .noborder, .programmesteps .collection .noborder ul {
+	background-image: none;
+}
+.programmesteps .collection .noborder span {
+	font-family: FFDINWebProMedium;
 }
 
 /* --------------------------------------------------------
