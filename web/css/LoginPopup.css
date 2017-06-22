@@ -1,0 +1,81 @@
+#btn-close-modal .material-icons {
+	width: 90px;
+	margin: 0 auto;
+	cursor: pointer;
+	color: #000;
+	font-size: 36px;
+	float: right;
+}
+.Mo_Wrap {
+	width: 730px;
+	margin: 0 auto;
+	clear: both;
+	background-color: #FFFFFF;
+}
+#animatedModal {
+	display: flex;
+	align-items: center;
+}
+.modal-content {
+	width: 100%;
+	float: left;
+	padding-bottom: 45px;
+}
+.modal-content h1 {
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+}
+.seperator {
+	width: 220px;
+	float: left;
+	margin-right: 29px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+.seperator:last-child {
+	margin-right: 0px;
+	float: right;
+}
+.seperator a {
+	display: block;
+	
+	text-decoration: none;
+}
+
+.seperator i {
+	display: block;
+	width: 220px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.popupmenu ul {
+	padding-left: 0px;
+}
+.popupmenu li {
+	list-style: none;
+}
+#animatedModal {
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.fullwidth {
+	display: block;
+	width: 100%;
+	background-color: #FFFFFF;
+	opacity: 1;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+	padding-top: 25px;
+}
+.loginlogo {
+	display: block;
+	background-repeat: no-repeat;
+	float: left;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	padding-bottom: 25px;
+}

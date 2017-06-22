@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="web/css/MobileMenu.css">
 <link rel="stylesheet" href="web/css/Navigation.css">
 <link rel="stylesheet" href="web/css/Common.css">
+<link rel="stylesheet" href="web/css/LoginPopup.css">
 
 <!-- Website CSS
                                 -------------------------------------------------- -->
@@ -98,7 +99,7 @@
                 </ul>
               </li>
               <li class='MenuFirst'><a href='#' style='cursor: default;'>Contact</a> </li>
-              <li class='MenuFirst'><a href='#animatedModal' id='demo01'>Sign In</a></li>
+              <li class='MenuFirst'><a href='#animatedModal' id='signin'>Sign In</a></li>
             </ul>
           </ul>
           <!-- Primary Nav --> 
@@ -176,7 +177,7 @@
               </ul>
             </li>
             <li class='MenuFirst'><a href='#' style='cursor: default;'>Contact</a> </li>
-            <li class='MenuFirst'><a href='#animatedModal' id='demo01'>Sign In</a></li>
+            <li class='MenuFirst'><a href='#animatedModal' id='signin'>Sign In</a></li>
           </ul>
         </ul>
       </div>
@@ -407,6 +408,27 @@
 <script src="web/js/animatedModal.min.js"></script> 
 <script src="web/js/Plugins.js"></script> 
 <script src="web/js/vendor/foundation.min.js"></script> 
+
+
+<!-- Sign in Popup
+                                 -------------------------------------------------- -->
+<div id="animatedModal">
+  <div class="fullwidth">
+    <div class="Mo_Wrap"> 
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <h1 class="loginlogo">BP</h1>
+      <div  id="btn-close-modal" class="close-animatedModal"><i class="material-icons">&#xE5CD;</i></div>
+      <div class="modal-content"> 
+        <!--Your modal content goes here-->
+        
+        <h1>Please select a login option below</h1>
+        <div class="memberlog seperator SchemeColor1Text"> <a href="https://member.bpmas.co.za/" target="_blank"><i class="material-icons">&#xE853;</i>Member</a> </div>
+        <div class="providerlog seperator SchemeColor1Text"> <a href="https://provider.mmihealth.co.za" target="_blank"><i class="material-icons">&#xE548;</i>Provider</a> </div>
+       <!-- <div class="employerlog divider"> <a href="https://employer.mmihealth.co.za" target="_blank"> <i class="material-icons">&#xE8F9;</i>Employer</a> </div> -->
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Google Analytics 
                                  -------------------------------------------------- --> 

@@ -115,11 +115,11 @@ nav.primary ul#nav ul li:hover > a {
 .navigation .home {
 	background-color: #FFF;
 }
-nav.primary ul#nav ul li #demo01 {
+nav.primary ul#nav ul li #signin {
 	background-image: url(../images/bp/sign-in-white.svg);
 	background-color: #00a651;
 }
-nav.primary ul li #demo01:hover {
+nav.primary ul li #signin:hover {
 	background-image: url(../images/bp/sign-in-white.svg);
 }
 .homeimage {
@@ -513,6 +513,12 @@ DIV.benefitsdrop ul {
 }
 .comparition i {
 	font-size: 1.1rem;
+}
+
+.loginlogo {
+	width: 237px;
+	height: 114px;
+	background-image:url(../images/bp/Logo.png);
 }
 
 /* --------------------------------------------------------

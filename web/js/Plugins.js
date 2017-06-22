@@ -28,6 +28,9 @@ $(document).ready(function(){
       stopPropagation: false // Stops event propagation
     }
   );
+  
+  //signin
+            $("#signin").animatedModal();
 	
 	
 	$("#clear").click(function(evt){
